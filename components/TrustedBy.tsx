@@ -13,7 +13,7 @@ const TrustedBy = () => {
 
     return (
         <section className="flex bg-[rgba(235,103,83,0.2)] py-13">
-            <div className="w-[80%] mx-auto grid grid-cols-2 items-center">
+            <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
             <div>
                 <img src="/TrustedImage.png" alt="Trusted Image" />
             </div>

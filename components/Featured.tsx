@@ -4,7 +4,7 @@
 
 const FeaturedList = () => {
     return (
-        <section className="w-[80%] flex flex-col gap-15 mx-auto my-20">
+        <section className="w-[90%] md:w-[75%] flex flex-col gap-15 mx-auto my-20">
             <div className="flex items-end justify-between">
                 <div className="gap-2 flex flex-col">
                     <p className="text-xl font-semibold">Discover Our Featured Listings</p>

@@ -21,7 +21,7 @@ const HowCanWehelp = () => {
     ]
 
     return (
-        <section className="w-[75%] mx-auto flex flex-col gap-15 my-20">
+        <section className="w-[90%] md:w-[75%] mx-auto flex flex-col gap-15 my-20">
             <div className="flex flex-col items-center text-center">
                 <p className="text-2xl font-semibold">See how Realtor can help</p>
                 <p className="text-[12px] font-light">Aliquam lacinia diam quis lacus euismod</p>

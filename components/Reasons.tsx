@@ -3,10 +3,10 @@ import { DollarSign, IdCardIcon, Key, LockKeyholeIcon } from "lucide-react";
 const Reasons = () => {
   return (
     <section className="bg-[#181A20] grid py-15">
-      <div className="grid grid-cols-2 mx-auto w-[80%] gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto w-[80%] gap-10">
         
         {/* Left Side Text */}
-        <div className="max-w-[80%] flex flex-col gap-4">
+        <div className="max-w-[100%] lg:max-w-[80%] flex flex-col gap-4">
           <p className="text-white font-semibold text-2xl">
             Let’s find the right selling option for you
           </p>
@@ -18,7 +18,7 @@ const Reasons = () => {
         </div>
 
         {/* Right Side Grid */}
-        <div className="grid grid-cols-2 gap-6 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-white">
           {/* Property Management */}
           <div className="flex flex-col gap-3">
             <LockKeyholeIcon className="w-6 h-6 text-green-400" />

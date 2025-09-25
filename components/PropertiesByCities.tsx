@@ -14,7 +14,7 @@ const PropertiesByCities = () => {
     ]
     
     return (
-        <section className="flex flex-col my-20 w-[80%] mx-auto gap-20">
+        <section className="flex flex-col my-20 w-[90%] md:w-[75%] mx-auto gap-20">
             <div className="flex items-end justify-between">
                 <div className="gap-2 flex flex-col">
                     <p className="text-xl font-semibold">Discover Our Featured Listings</p>
@@ -25,7 +25,7 @@ const PropertiesByCities = () => {
                     <img className="h-3 w-3" src="./more-arrow.svg" alt="more-arrow" />
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {cityProperties.map((items, index) => {
                         return (
                             <div key={index} className="flex items-center gap-3">
