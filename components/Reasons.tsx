@@ -2,7 +2,7 @@ import { DollarSign, IdCardIcon, Key, LockKeyholeIcon } from "lucide-react";
 
 const Reasons = () => {
   return (
-    <section className="bg-[#181A20] grid py-15">
+    <section className="bg-[#181A20] grid py-10 md:py-15">
       <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto w-[80%] gap-10">
         
         {/* Left Side Text */}

@@ -15,21 +15,21 @@ const PropertiesByCities = () => {
     
     return (
         <section className="flex flex-col my-20 w-[90%] md:w-[75%] mx-auto gap-20">
-            <div className="flex items-end justify-between">
+             <div className="flex items-end justify-between">
                 <div className="gap-2 flex flex-col">
-                    <p className="text-xl font-semibold">Discover Our Featured Listings</p>
-                    <p className="text-gray-500 text-[12px]">These are a list of all of the featured estate apartments</p>
+                    <p className="text-[14px] md:text-xl font-semibold">Discover Our Featured Listings</p>
+                    <p className="text-gray-500 text-[10px] md:text-[12px] max-w-[200px] md:max-w-full">These are a list of all of the featured estate apartments</p>
                 </div>
                 <div className="flex items-center gap-3">
-                    <p className="text-[12px] font-semibold">See all properties</p>
+                    <p className="text-[10px] md:text-[12px] font-semibold">See all properties</p>
                     <img className="h-3 w-3" src="./more-arrow.svg" alt="more-arrow" />
                 </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {cityProperties.map((items, index) => {
                         return (
-                            <div key={index} className="flex items-center gap-3">
-                                <img className="h-17 w-17" src={items.img} alt="" />
+                            <div key={index} className="flex items-center gap-3 border-1 border-gray-300 shadow-xl p-3 rounded-md">
+                                <img className="h-14 md:h-17 w-14 md:w-17" src={items.img} alt="" />
                                 <div>
                                     <p className="text-[13px] font-semibold">{items.place}</p>
                                     <p className="text-[12px] text-gray-600">{items.numOfProperties} properties</p>

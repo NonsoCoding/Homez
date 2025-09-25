@@ -8,7 +8,7 @@ import TrustedBy from "@/components/TrustedBy";
 
 export default function Home() {
   return (
-    <div className="pb-50">
+    <div className="pb-5">
       <Hero />
       <FeaturedList />
       <Reasons />

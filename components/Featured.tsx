@@ -4,14 +4,14 @@
 
 const FeaturedList = () => {
     return (
-        <section className="w-[90%] md:w-[75%] flex flex-col gap-15 mx-auto my-20">
+        <section className="w-[90%] md:w-[75%] flex flex-col gap-15 mx-auto my-10 md:my-20">
             <div className="flex items-end justify-between">
                 <div className="gap-2 flex flex-col">
-                    <p className="text-xl font-semibold">Discover Our Featured Listings</p>
-                    <p className="text-gray-500 text-[12px]">These are a list of all of the featured estate apartments</p>
+                    <p className="text-[14px] md:text-xl font-semibold">Discover Our Featured Listings</p>
+                    <p className="text-gray-500 text-[10px] md:text-[12px] max-w-[200px] md:max-w-full">These are a list of all of the featured estate apartments</p>
                 </div>
                 <div className="flex items-center gap-3">
-                    <p className="text-[12px] font-semibold">See all properties</p>
+                    <p className="text-[10px] md:text-[12px] font-semibold">See all properties</p>
                     <img className="h-3 w-3" src="./more-arrow.svg" alt="more-arrow" />
                 </div>
             </div>

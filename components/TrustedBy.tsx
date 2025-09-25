@@ -12,14 +12,14 @@ const TrustedBy = () => {
     ]
 
     return (
-        <section className="flex bg-[rgba(235,103,83,0.2)] py-13">
+        <section className="flex bg-[rgba(235,103,83,0.2)] py-7 md:py-13">
             <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
             <div>
                 <img src="/TrustedImage.png" alt="Trusted Image" />
             </div>
-            <div className="flex flex-col gap-7">
-                <p className="text-2xl font-bold max-w-[200px]">Truested By Best
-                    Exclusive Agetns</p>
+            <div className="flex flex-col gap-7 ">
+                <p className="text-[15px] md:text-2xl font-bold md:max-w-[200px] text-center self-center">Trusted By Best
+                    Exclusive Agents</p>
                 <p className="text-[12px] max-w-[400px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt.</p>
                 <div className="flex flex-col gap-3">
