@@ -134,7 +134,7 @@ const Properties = () => {
     return (
         <section className="w-full">
             <NavBar
-                className="bg-[#181A20] w-[90%] mx-auto py-3 sticky inset-0 shadow"
+                className="bg-[#181A20] w-[90%] mx-auto py-3 sticky inset-2 shadow mt-3"
             />
             <div className="flex w-[90%] flex-col md:w-[75%] gap-6 mt-6 mx-auto">
                 <p className="text-lg font-bold">Select from our list of properties</p>
