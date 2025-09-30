@@ -13,7 +13,7 @@ const PropertiesByCities = () => {
     ]
     
     return (
-        <section className="flex flex-col my-20 w-[90%] md:w-[75%] mx-auto gap-20">
+        <section className="flex flex-col my-20 w-[90%] md:w-[75%] mx-auto gap-13 md:gap-20">
              <div className="flex items-end justify-between">
                 <div className="gap-2 flex flex-col">
                     <p className="text-[14px] md:text-xl font-semibold">Discover Our Featured Listings</p>
