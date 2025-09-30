@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="border-b-1 border-gray-500"></div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">
                     <div className="flex flex-col gap-3 text-xs">
                         <p className="font-bold">Popular Search</p>
                         <p>Apartment for Rent</p>

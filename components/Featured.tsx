@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 
@@ -10,10 +11,10 @@ const FeaturedList = () => {
                     <p className="text-[14px] md:text-xl font-semibold">Discover Our Featured Listings</p>
                     <p className="text-gray-500 text-[10px] md:text-[12px] max-w-[200px] md:max-w-full">These are a list of all of the featured estate apartments</p>
                 </div>
-                <div className="flex items-center gap-3">
+                <Link href={"/properties"} className="flex items-center gap-3">
                     <p className="text-[10px] md:text-[12px] font-semibold">See all properties</p>
                     <img className="h-3 w-3" src="./more-arrow.svg" alt="more-arrow" />
-                </div>
+                </Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="flex flex-col overflow-hidden gap-2 border-1 border-gray-200 shadow-xl rounded-md">

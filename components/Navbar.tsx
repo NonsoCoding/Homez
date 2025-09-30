@@ -3,7 +3,13 @@ import { ArrowRight, Home, Phone, User, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
-const NavBar = () => {
+interface INavBarProps {
+    className: string
+}
+
+const NavBar = ({
+    className
+}: INavBarProps) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const NavItems = [
@@ -23,7 +29,9 @@ const NavBar = () => {
 
     return (
         <>
-            <section className="flex justify-between w-[90%] mx-auto text-white pt-5 items-center relative">
+            <div className={className}>
+            <section style={{
+            }} className="flex justify-between w-[95%] mx-auto text-white pt-2 items-center relative">
                 {/* Left section - Logo */}
                 <div className="flex gap-6">
                     <div className="flex gap-1.5 items-center">
@@ -134,6 +142,7 @@ const NavBar = () => {
                         <ArrowRight size={16}/>
                     </button>
                 </div>
+            </div>
             </div>
         </>
     );
