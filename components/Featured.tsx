@@ -18,7 +18,7 @@ const FeaturedList = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="flex flex-col overflow-hidden gap-2 border-1 border-gray-200 shadow-xl rounded-md">
-                    <img src="./Hero.png" alt="" />
+                    <img src="feature2.jpg" alt="" />
                     <div className="flex p-4 flex-col gap-1">
                         <p className="font-semibold">House on the hollywood</p>
                         <p className="text-gray-500 text-[12px]">374 Johnson Ave</p>
@@ -39,7 +39,7 @@ const FeaturedList = () => {
                     </div>
                 </div>
                 <div className="flex flex-col overflow-hidden gap-2 border-1 border-gray-200 shadow-xl rounded-md">
-                    <img src="./Hero.png" alt="" />
+                    <img src="feature1.jpg" alt="" />
                     <div className="flex p-4 flex-col gap-1">
                         <p className="font-semibold">House on the hollywood</p>
                         <p className="text-gray-500 text-[12px]">374 Johnson Ave</p>
@@ -60,7 +60,7 @@ const FeaturedList = () => {
                     </div>
                 </div>
                 <div className="flex flex-col overflow-hidden gap-2 border-1 border-gray-200 shadow-xl rounded-md">
-                    <img src="./Hero.png" alt="" />
+                    <img src="./feature3.jpg" alt="" />
                     <div className="flex p-4 flex-col gap-1">
                         <p className="font-semibold">House on the hollywood</p>
                         <p className="text-gray-500 text-[12px]">374 Johnson Ave</p>

@@ -10,7 +10,6 @@ const PropertiesByCities = () => {
         {place: "Los Vegas", numOfProperties: 8, img: "/PropCities.jpg"},
         {place: "Amsterdam", numOfProperties: 2, img: "/PropCities.jpg"},
         {place: "Texas", numOfProperties: 9, img: "/PropCities.jpg"},
-        {place: "Massachessets", numOfProperties: 6, img: "/PropCities.jpg"},
     ]
     
     return (
@@ -28,7 +27,7 @@ const PropertiesByCities = () => {
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {cityProperties.map((items, index) => {
                         return (
-                            <div key={index} className="flex items-center gap-3 border-1 border-gray-300 shadow-xl p-3 rounded-md">
+                            <div key={index} className="flex items-center gap-3 border-1 border-gray-100 shadow p-3 rounded-md">
                                 <img className="h-14 md:h-17 w-14 md:w-17" src={items.img} alt="" />
                                 <div>
                                     <p className="text-[13px] font-semibold">{items.place}</p>
