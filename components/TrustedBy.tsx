@@ -30,9 +30,9 @@ const TrustedBy = () => {
                         </div>
                     ))}
                     </div>
-                    <button className="h-7 w-20 font-semibold text-white rounded-md bg-[#EB6753] items-center flex justify-center text-[10px] gap-2">
+                    <button className="h-10 w-40 font-semibold text-white rounded-md bg-[#EB6753] items-center flex justify-center text-[10px] md:text-[13px] gap-2">
                         See More
-                        <img className="h-2.5 w-2.5" color="text-white" src="./white-more-arrow.svg" alt="more-arrow" />
+                        <img className="h-2.5 w-2.5 mt-0.5" color="text-white" src="./white-more-arrow.svg" alt="more-arrow" />
                 </button>
             </div>
             </div>
