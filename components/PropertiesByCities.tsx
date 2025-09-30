@@ -24,7 +24,7 @@ const PropertiesByCities = () => {
                     <img className="h-3 w-3" src="./more-arrow.svg" alt="more-arrow" />
                 </div>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     {cityProperties.map((items, index) => {
                         return (
                             <div key={index} className="flex items-center gap-3 border-1 border-gray-100 shadow p-3 rounded-md">
